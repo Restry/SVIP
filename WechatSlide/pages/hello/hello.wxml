@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="orders">
+    <text class="hint">回复消息</text>
+    <view class="form-wrap">
+      
+      <text wx:if="{{msg === 0}}" class="hint no-order">无</text>
+    </view>
+  </view>
+</view>
+<view class="container footer">
+  <text wx:if="{{error}}" class="error">{{error}}</text>
+  <button type="primary" bindtap="donate">支付 ￥0.01</button>
+</view>

@@ -1,0 +1,5 @@
+<view class="form-wrap">
+  <navigator url="../user/user" class="navigator user">账户登录</navigator>
+  <navigator url="../pay/pay" class="navigator pay">打赏</navigator>
+  <navigator url="../hello/hello" class="navigator pay">HellO 呀呀！</navigator>
+</view>
